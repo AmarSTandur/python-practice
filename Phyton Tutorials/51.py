@@ -1,0 +1,19 @@
+#lists
+items=["bru","sugar","Milk"]
+print(items[2 ])
+print(items)
+items.pop()
+print(items)
+items.pop(0)
+print(items)
+items=["bru","sugar","Milk"]
+items.pop(1)
+print(items)
+items.append("biscuit")
+print(items)
+items.remove("Milk")
+print(items)  
+items.insert(1,("chocolate"))
+print(items)
+items.clear()
+print(items)
